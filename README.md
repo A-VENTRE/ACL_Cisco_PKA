@@ -47,13 +47,10 @@ Une ACL est une liste de règles qui :
 ## 📝 Exemple de Configuration Cisco
 
 ### Création d'une ACL Standard
-```bash
 Router(config)# access-list 10 deny host 192.168.1.10
 Router(config)# access-list 10 permit any
 
 ### Application de l'ACL à une Interface
-
-```bash
 Router(config-if)# ip access-group 10 in
 
 ### 🚀 Utilisation
@@ -64,8 +61,8 @@ Router(config-if)# ip access-group 10 in
 
 #### 📖 Instructions
 1. Clonez le dépôt :
-   ```bash
    git clone https://github.com/your-username/ACL_Tutorial_and_Exercises.git
+   
 #### 📖 Instructions (Suite)
 - Explorez les dossiers pour accéder aux exemples et exercices.
 - Utilisez les fichiers de simulation (.pkt, .gns3) pour expérimenter.
