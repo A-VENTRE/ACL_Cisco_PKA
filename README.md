@@ -53,26 +53,26 @@ Router(config)# access-list 10 permit any
 ### Application de l'ACL à une Interface
 Router(config-if)# ip access-group 10 in
 
-### 🚀 Utilisation
+## 🚀 Utilisation
 
-#### 🔧 Prérequis
+### 🔧 Prérequis
 - Logiciels : Packet Tracer, GNS3.
 - Accès à des environnements UNIX/Linux ou Windows.
 
-#### 📖 Instructions
+### 📖 Instructions
 1. Clonez le dépôt :
    git clone https://github.com/your-username/ACL_Tutorial_and_Exercises.git
    
-#### 📖 Instructions (Suite)
+### 📖 Instructions (Suite)
 - Explorez les dossiers pour accéder aux exemples et exercices.
 - Utilisez les fichiers de simulation (.pkt, .gns3) pour expérimenter.
 
-### 🛡️ Bonnes Pratiques
+## 🛡️ Bonnes Pratiques
 - **Ordre des règles** : Placez les règles spécifiques avant les générales.
 - **Tests** : Vérifiez vos ACL après configuration.
 - **Documentation** : Notez toutes vos configurations pour une maintenance simplifiée.
 
-### 📎 Ressources
+## 📎 Ressources
 - [Documentation Cisco sur les ACL](https://www.cisco.com)
 - [Tutoriel ACL Linux](https://linux.die.net/man/1/getfacl)
 - [Gestion NTFS ACL sous Windows](https://learn.microsoft.com)
